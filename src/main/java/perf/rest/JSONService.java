@@ -35,8 +35,8 @@ public class JSONService {
 		List<Track> tracks = new ArrayList<Track>();
 		for (int i = 0; i < 5; i++) {
 			Track track = new Track();
-			track.setTitle("Enter Sandman");
-			track.setSinger("Metallica");
+			track.setTitle("Sandman " + i);
+			track.setSinger("Metallica " + i);
 			tracks.add(track);
 		}
 
